@@ -1,12 +1,14 @@
-var playlist={artistName:"songTitle"};
+var playlist= new object{artistName:"songTitle"};
 
 function updatePlaylist(playlist, artistName, songTitle)
 {
+  playlist['Slowdive'] = 'Alison';
+  playlist['My Bloody Valentine'] = 'Sometimes';
   updatePlaylist(playlist,'Phil Ochs', "Here's to the State of Mississippi")
   return playlist;
 }
 
-function removeFromPlaylist(playlist, artistName)
+function removeFromPlaylist(playlist, 'Slowdive')
 {
-  delete playlist[artistName];
+  delete playlist['Alison'];
 }
