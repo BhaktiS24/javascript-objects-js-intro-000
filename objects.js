@@ -11,4 +11,5 @@ function updatePlaylist(playlist, artistName, songTitle)
 function removeFromPlaylist(playlist, 'Slowdive')
 {
   delete playlist['Alison'];
+  return playlist;
 }
